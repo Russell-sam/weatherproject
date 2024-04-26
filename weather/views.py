@@ -5,7 +5,7 @@ import datetime
 
 
 def index(request):
-     api_key = '68dc749974b77034935e3e0100a120ea'
+     api_key = 'https://home.openweathermap.org/api_keys'
      current_weather_url = 'https://api.openweathermap.org/data/2.5/weather?q={}&appid={}'
      forecast_url = 'https://api.openweathermap.org/data/2.5/onecall?lat={}&lon={}&exclude=current,minutely,hourly,alerts&appid={}'
 
